@@ -1,6 +1,6 @@
-package com.iris.banco.feature.empleado.domain;
+package com.iris.banco.feature.persona.empleado.domain;
 
-import com.iris.banco.feature.fathers.Persona;
+import com.iris.banco.feature.persona.Persona;
 
 public class Empleado extends Persona {
     private String numeroSS;

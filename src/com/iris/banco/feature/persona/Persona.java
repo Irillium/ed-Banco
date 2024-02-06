@@ -1,4 +1,4 @@
-package com.iris.banco.feature.fathers;
+package com.iris.banco.feature.persona;
 
 public class Persona {
     private String dni;

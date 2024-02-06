@@ -1,6 +1,6 @@
-package com.iris.banco.feature.cliente.domain;
+package com.iris.banco.feature.persona.cliente.domain;
 
-import com.iris.banco.feature.fathers.Persona;
+import com.iris.banco.feature.persona.Persona;
 
 public class Cliente extends Persona {
     private String direccion;

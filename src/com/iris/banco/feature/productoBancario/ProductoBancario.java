@@ -1,4 +1,4 @@
-package com.iris.banco.feature.fathers;
+package com.iris.banco.feature.productoBancario;
 
 public class ProductoBancario {
     private String id;
