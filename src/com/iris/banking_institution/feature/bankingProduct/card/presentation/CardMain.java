@@ -20,7 +20,7 @@ public class CardMain {
         addCardUseCase.execute(card);
     }
     public static void modifyCard(String id,Card card){
-        ModifyCardUseCase modifyCardUseCase = new ModifyCardUseCase(CardDataRepository.newInstancia());
+        ModifyCardUseCase modifyCardUseCase = new ModifyCardUseCase(CardDataRepository.newInstance());
         modifyCardUseCase.execute(id,card);
     }
 }
