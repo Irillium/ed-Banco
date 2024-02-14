@@ -3,38 +3,38 @@ package com.iris.banking_institution.feature.person.customer.domain;
 import com.iris.banking_institution.feature.person.Person;
 
 public class Customer extends Person {
-    private String direccion;
-    private String poblacion;
-    private String codPostal;
+    private String address;
+    private String population;
+    private String postalCode;
 
-    public Customer(String dni, String nombre, String apellidos, String direccion, String poblacion, String codPostal) {
-        super(dni, nombre, apellidos);
-        this.direccion = direccion;
-        this.poblacion = poblacion;
-        this.codPostal = codPostal;
+    public Customer(String dni, String name, String surnames, String address, String population, String postalCode) {
+        super(dni, name, surnames);
+        this.address = address;
+        this.population = population;
+        this.postalCode = postalCode;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getAddress() {
+        return address;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public String getPoblacion() {
-        return poblacion;
+    public String getPopulation() {
+        return population;
     }
 
-    public void setPoblacion(String poblacion) {
-        this.poblacion = poblacion;
+    public void setPopulation(String population) {
+        this.population = population;
     }
 
-    public String getCodPostal() {
-        return codPostal;
+    public String getPostalCode() {
+        return postalCode;
     }
 
-    public void setCodPostal(String codPostal) {
-        this.codPostal = codPostal;
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
     }
 }

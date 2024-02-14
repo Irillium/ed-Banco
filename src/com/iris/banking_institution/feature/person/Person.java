@@ -2,13 +2,13 @@ package com.iris.banking_institution.feature.person;
 
 public class Person {
     private String dni;
-    private String nombre;
-    private String apellidos;
+    private String name;
+    private String surnames;
 
-    public Person(String dni, String nombre, String apellidos) {
+    public Person(String dni, String name, String surnames) {
         this.dni = dni;
-        this.nombre = nombre;
-        this.apellidos = apellidos;
+        this.name = name;
+        this.surnames = surnames;
     }
 
     public String getDni() {
@@ -19,19 +19,19 @@ public class Person {
         this.dni = dni;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getApellidos() {
-        return apellidos;
+    public String getSurnames() {
+        return surnames;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public void setSurnames(String surnames) {
+        this.surnames = surnames;
     }
 }
